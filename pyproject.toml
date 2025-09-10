@@ -1,0 +1,22 @@
+[project]
+name = "ddp-threading"
+version = "0.1.0"
+description = "Threading par double programmation dynamique avec DOPE et renforcement SAP-like"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{ name = "Romain GERARD" }]
+
+dependencies = [
+    "biopython>=1.85",
+    "matplotlib>=3.10.6",
+    "numpy>=2.3.2",
+    "pandas>=2.3.2",
+]
+
+[tool.uv]
+managed = true
+
+[project.scripts]
+# raccourcis CLI
+ddp-main = "main:main"
+ddp-eval = "evaluate_threading:main"
