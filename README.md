@@ -31,9 +31,6 @@ uv self update
 uv sync
 ```
 
-python evaluate_threading.py --help
-```
-
 ## Utilisation
 
 ### 1) Processus unitaire (une séquence + un gabarit)
@@ -100,5 +97,6 @@ uv run python evaluate_threading.py \
 * **`dope.par` introuvable** : placez-le à la racine du projet ou passez `--dope /chemin/vers/dope.par`.
 * **PDB multi-chaînes** : passez `--chain A` (ou l’ID voulu).
 * **Images vides** : vérifiez qu’il y a suffisamment de paires évaluées (`--expand-k`, `--cycles`) et que les chemins vers FASTA/PDB sont corrects.
+
 
 
