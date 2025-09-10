@@ -1,4 +1,4 @@
-# DDP Threading (uv)
+# DDP Threading
 
 Implémentation du **threading par double programmation dynamique** :
 
@@ -13,7 +13,7 @@ Implémentation du **threading par double programmation dynamique** :
 * `sequences/` : fichiers FASTA (`.fasta`) **non commités** (voir `.gitignore`).
 * `templates/` : fichiers PDB (`.pdb`) **non commités**.
 
-> Place simplement les fichiers dans ces dossiers (ou passe des chemins absolus).
+> Placez simplement les fichiers dans ces dossiers (ou passez des chemins absolus).
 
 ## Installation (uv)
 
@@ -101,6 +101,7 @@ uv run python evaluate_threading.py \
 
 ## Dépannage rapide
 
-* **`dope.par` introuvable** : place-le à la racine du projet ou passe `--dope /chemin/vers/dope.par`.
-* **PDB multi-chaînes** : passe `--chain A` (ou l’ID voulu).
-* **Images vides** : vérifie qu’il y a suffisamment de paires évaluées (`--expand-k`, `--cycles`) et que les chemins vers FASTA/PDB sont corrects.
+* **`dope.par` introuvable** : placez-le à la racine du projet ou passez `--dope /chemin/vers/dope.par`.
+* **PDB multi-chaînes** : passez `--chain A` (ou l’ID voulu).
+* **Images vides** : vérifiez qu’il y a suffisamment de paires évaluées (`--expand-k`, `--cycles`) et que les chemins vers FASTA/PDB sont corrects.
+
