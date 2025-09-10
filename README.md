@@ -29,7 +29,7 @@ uv run python main.py \
 ```
 
 Evaluation 1 séquence vs >=1 templates.
-Exemple de commande, il faut télécharger tout les fichiers .fasta et .pdb nécessaires indiqués dans manif.csv pour exécuter celle-ci en particulier.
+Exemple de commande, il faut télécharger tous les fichiers .fasta et .pdb nécessaires indiqués dans manif.csv pour exécuter celle-ci en particulier.
 
 ```bash
 uv run python evaluate_threading.py \
@@ -39,5 +39,6 @@ uv run python evaluate_threading.py \
   --outdir eval_out \
   --n-decoys 50 --sap-reinforce -j 8
 ```
+
 
 
