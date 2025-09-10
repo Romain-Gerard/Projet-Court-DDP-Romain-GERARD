@@ -12,9 +12,6 @@ source ~/.bashrc
 
 uv --version
 uv self update
-
-uv add numpy pandas biopython matplotlib
-uv sync
 ```
 
 ## Utilisation
@@ -41,3 +38,4 @@ uv run python evaluate_threading.py \
   --outdir eval_out \
   --n-decoys 50 --sap-reinforce -j 8
 ```
+
