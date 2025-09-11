@@ -56,7 +56,7 @@ uv run python main.py \
 
 Attention /!\ les fichiers pour cette commande ne sont pas fournis.
 
-Prépare un **manifest** CSV (ex. `manif.csv`) :
+Préparez un **manifest** CSV (ex. `manif.csv`) :
 
 ```csv
 pdb_path,chain,label,name,native
@@ -99,6 +99,7 @@ uv run python evaluate_threading.py \
 * **`dope.par` introuvable** : placez-le à la racine du projet ou passez `--dope /chemin/vers/dope.par`.
 * **PDB multi-chaînes** : passez `--chain A` (ou l’ID voulu).
 * **Images vides** : vérifiez qu’il y a suffisamment de paires évaluées (`--expand-k`, `--cycles`) et que les chemins vers FASTA/PDB sont corrects.
+
 
 
 
